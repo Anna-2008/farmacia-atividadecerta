@@ -1,6 +1,11 @@
-# 💊 API RESTful - Sistema de Farmácia
+### Descrição dos Diretórios
 
-API completa para gestão de farmácia desenvolvida com Node.js e Express, permitindo o gerenciamento de produtos, clientes e pedidos.
+- **controllers/**: Contém a lógica de negócio para cada recurso
+- **models/**: Armazena os dados em memória (produtos farmacêuticos, clientes, pedidos)
+- **routes/**: Define as rotas da API para cada recurso
+- **server.js**: Arquivo principal que inicializa o servidor Express# 💊 API RESTful - Sistema de Farmácia
+
+API completa para gestão de farmácia desenvolvida com Node.js e Express, permitindo o gerenciamento de produtos farmacêuticos, clientes e pedidos.
 
 ## 📋 Índice
 
@@ -15,7 +20,7 @@ API completa para gestão de farmácia desenvolvida com Node.js e Express, permi
 
 ## 🎯 Sobre o Projeto
 
-Esta API foi desenvolvida para gerenciar operações básicas de uma farmácia, incluindo:
+Esta API foi desenvolvida para gerenciar operações de uma farmácia, incluindo:
 
 - **Produtos**: Cadastro e controle de medicamentos e dermocosméticos
 - **Clientes**: Gestão de cadastro de clientes
@@ -41,7 +46,7 @@ Antes de começar, você precisará ter instalado em sua máquina:
 
 2. Navegue até o diretório do projeto:
 ```bash
-cd cafeteria-api
+cd farmacia-api
 ```
 
 3. Instale as dependências:
@@ -187,7 +192,7 @@ curl -X POST http://localhost:3000/api/pedidos \
 ## 📁 Estrutura do Projeto
 
 ```
-cafeteria-api/
+farmacia-api/
 ├── src/
 │   ├── controllers/
 │   │   ├── produtoController.js
